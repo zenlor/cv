@@ -56,7 +56,7 @@ makes life simple while keeps an eye on maintainability and sustainability.
 - Familiar :: OVH, generic VPS providers
 
 * Work Experience
-** January 2016 - Present
+** January 2016 - December 2018
 *Backend Developer, Devop*, Mobilebridge BV, Amsterdam, Netherlands
 
 - Built the service infrastructure based on Docker containers and Rancher.
@@ -66,7 +66,7 @@ makes life simple while keeps an eye on maintainability and sustainability.
 - Developed an internal distributed api stress testing tool with built-in
   autoscaling (over AWS EC2) and workload distribution.
 - Developed and maintain the real time event processing pipeline based on
-  serverless Lambda functions, currently in pre-production phase.
+  serverless Lambda functions, currently in beta phase.
 
 ** April 2013 - November 2015
 *Backend node.js developer*, Contentment, London, United Kingdom
