@@ -1,9 +1,13 @@
-cv.pdf: cv.org cv.sty
-	pandoc --variable subparagraph -s cv.org -o cv.pdf
-
-clean:
-	rm -r *.pdf
-
-all: cv.pdf
+SOURCE=cv.org cv.sty
+TARGETS=cv.pdf cv.md README.md
 
 .PHONY: clean all
+
+all: $(TARGETS)
+
+clean:
+	rm -f $(TARGETS)
+
+$(TARGETS): $(SOURCE)
+	pandoc --variable subparagraph -s $< -o $@
+
