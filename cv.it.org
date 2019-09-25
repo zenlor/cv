@@ -1,14 +1,11 @@
 #+OPTIONS: toc:nil H:10
-
 #+LaTeX_HEADER: \usepackage{cv}
-
 #+MACRO: first    Lorenzo
 #+MACRO: last     Giuliani
 #+MACRO: full     {{{first}}} {{{last}}}
 #+MACRO: address  L'Aquila, via Monte Caticchio 10, 67100
 #+MACRO: phone    0039 351 220 7990
 #+MACRO: email    [[lorenzo@giuliani.me][lorenzo@giuliani.me]]
-
 #+TITLE: Curriculum Vitae - Lorenzo Giuliani
 
 

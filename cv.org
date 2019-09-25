@@ -2,12 +2,13 @@
 
 #+LaTeX_HEADER: \usepackage{cv}
 
-#+MACRO: first    Lorenzo
-#+MACRO: last     Giuliani
-#+MACRO: full     {{{first}}} {{{last}}}
-#+MACRO: address  Dever 39-3, Amsterdam, Netherlands
-#+MACRO: phone    0031 6 38 70 93 02
-#+MACRO: email    [[lorenzo@giuliani.me][lorenzo@giuliani.me]]
+#+MACRO: first Lorenzo
+#+MACRO: last Giuliani
+#+MACRO: full {{{first}}} {{{last}}}
+#+MACRO: address Dever 39-3, Amsterdam, Netherlands
+#+MACRO: phone 0031 6 38 70 93 02
+#+MACRO: email [[lorenzo@giuliani.me][lorenzo@giuliani.me]]
+
 
 #+TITLE: Curriculum Vitae - Lorenzo Giuliani
 

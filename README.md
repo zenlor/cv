@@ -1,8 +1,6 @@
 ---
 header-includes:
 - '\usepackage{cv}'
-macro: 'email    [[lorenzo@giuliani.me][lorenzo@giuliani.me]]'
-subparagraph: true
 title: 'Curriculum Vitae - Lorenzo Giuliani'
 ---
 
@@ -14,22 +12,22 @@ Personal Information
 Name
 ----
 
-{{{full}}}
+Lorenzo Giuliani
 
 Address
 -------
 
-{{{address}}}
+Dever 39-3, Amsterdam, Netherlands
 
 Phone
 -----
 
-{{{phone}}}
+0031 6 38 70 93 02
 
 E-mail
 ------
 
-{{{email}}}
+*lorenzo\@giuliani.me*
 
 Summary
 =======
@@ -132,7 +130,7 @@ April 2013 - November 2015
 March 2007 - Present
 --------------------
 
-**Core developer**, GtGames, L'Aquila, Italy
+**Core developer**, GtGames, L\'Aquila, Italy
 
 Currently only maintaining remaining services.
 
