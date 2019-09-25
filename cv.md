@@ -1,6 +1,8 @@
 ---
 header-includes:
 - '\usepackage{cv}'
+macro: 'email    [[lorenzo@giuliani.me][lorenzo@giuliani.me]]'
+subparagraph: true
 title: 'Curriculum Vitae - Lorenzo Giuliani'
 ---
 
@@ -12,22 +14,22 @@ Personal Information
 Name
 ----
 
-Lorenzo Giuliani
+{{{full}}}
 
 Address
 -------
 
-Dever 39-3, Amsterdam, Netherlands
+{{{address}}}
 
 Phone
 -----
 
-0031 6 38 70 93 02
+{{{phone}}}
 
 E-mail
 ------
 
-*lorenzo\@giuliani.me*
+{{{email}}}
 
 Summary
 =======
@@ -35,11 +37,11 @@ Summary
 > Simplicity is a prerequisite for reliability - Edsger W. Dijkstra
 
 Computer programmer, devops and security enthusiast with a keen eye
-towards functional programming. Nerd that loves the harness computer
-powers thru Vim and, surprisingly, Emacs. Prefers to break down problems
-in small chunks to process, be it microservices or simpler functions.
-Loves good technology which makes life simple while keeps an eye on
-maintainability and sustainability.
+towards functional programming. Nerd that loves to harness computers
+powers wielding Vim and, surprisingly, Emacs. Prefers to break down
+problems in small chunks to process, be it microservices or simpler
+functions. Loves good technology which makes life simple while keeps an
+eye on maintainability and sustainability.
 
 Technical Skills
 ================
@@ -84,6 +86,15 @@ Familiar
 Work Experience
 ===============
 
+May 2018 - July 2018
+--------------------
+
+**Backend Developer**, Myjar ltd, Tallinn, Estonia
+
+-   Maintainer of company microservices and reimplementation of many of
+    them to fix legacy bugs and issues talking to different third party
+    providers and the corporate Camunda server.
+
 January 2016 - December 2018
 ----------------------------
 
@@ -121,7 +132,7 @@ April 2013 - November 2015
 March 2007 - Present
 --------------------
 
-**Core developer**, GtGames, L\'Aquila, Italy
+**Core developer**, GtGames, L'Aquila, Italy
 
 Currently only maintaining remaining services.
 
