@@ -1,26 +1,22 @@
 #+OPTIONS: toc:nil H:10
 #+LaTeX_HEADER: \usepackage{cv}
-#+MACRO: first    Lorenzo
-#+MACRO: last     Giuliani
-#+MACRO: full     {{{first}}} {{{last}}}
-#+MACRO: address  L'Aquila, via Monte Caticchio 10, 67100
-#+MACRO: phone    0039 351 220 7990
-#+MACRO: email    [[lorenzo@giuliani.me][lorenzo@giuliani.me]]
+#+MACRO: first  Lorenzo
+#+MACRO: last   Giuliani
+#+MACRO: full   {{{first}}} {{{last}}}
+#+MACRO: email  lorenzo@giuliani.me]]
+#+MACRO: github https://github.com/zenlor
 #+TITLE: Curriculum Vitae - Lorenzo Giuliani
 
 
 * Informationi Personali
 ** Nome
-   {{{full}}}
+{{{full}}}
 
-** Indirizzo
-   {{{address}}}
-
-** Telefono
-   {{{phone}}}
+** Github
+{{{github}}}
 
 ** E-mail
-   {{{email}}}
+{{{email}}}
 
 * Sommario
 
@@ -54,6 +50,18 @@ sempre tenendo conto di mantenibilità.
 - Conosciuti :: OVH, generic VPS providers
 
 * Esperienze Lavorative
+** Nov 2019 - Present
+*Senior SRE*, Malwarebytes Inc, Perugia, Italy
+
+- Principal SRE for Malwarebytes' EDR project based in Italy. Maintainer of the
+  Infrastructure as Code for the project using Terraform over AWS. The tech
+  stack is based fully on Terraform, AWS ECS, AWS Lambda, AWS SQS and lately,
+  the new addition, EKS.
+- Active monitoring setup over CloudWatch and SignalFX with real-time alarms for
+  the older part of the infrastructure.
+- Prometheus Operator setup for EKS as a future proof solution to distributed
+  monitoring of thousands of containers.
+
 ** Maggio 2019 - Luglio 2019
 *Backend Developer*, Myjar ltd, Tallinn, Estonia
 

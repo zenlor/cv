@@ -1,36 +1,26 @@
 ---
 header-includes:
-- '\usepackage{cv}'
-title: 'Curriculum Vitae - Lorenzo Giuliani'
+- "`\\usepackage{cv}`{=latex}"
+title: Curriculum Vitae - Lorenzo Giuliani
 ---
 
-\usepackage{cv}
+`\usepackage{cv}`{=latex}
 
-Personal Information
-====================
+# Personal Information
 
-Name
-----
+## Name
 
 Lorenzo Giuliani
 
-Address
--------
+## Github
 
-Dever 39-3, Amsterdam, Netherlands
+<https://github.com/zenlor>
 
-Phone
------
+## E-mail
 
-0031 6 38 70 93 02
+[*lorenzo@giuliani.me*]{.spurious-link target="lorenzo@giuliani.me"}
 
-E-mail
-------
-
-*lorenzo\@giuliani.me*
-
-Summary
-=======
+# Summary
 
 > Simplicity is a prerequisite for reliability - Edsger W. Dijkstra
 
@@ -41,11 +31,9 @@ problems in small chunks to process, be it microservices or simpler
 functions. Loves good technology which makes life simple while keeps an
 eye on maintainability and sustainability.
 
-Technical Skills
-================
+# Technical Skills
 
-Languages
----------
+## Languages
 
 Proficient
 :   node.js, Clojure, POSIX Shell, lisp
@@ -53,8 +41,7 @@ Proficient
 Familiar
 :   Java, Go, C/C++, Python
 
-Operating Systems
------------------
+## Operating Systems
 
 Proficient
 :   GNU/Linux (LFS, ArchLinux and Debian-based distributions),
@@ -63,17 +50,15 @@ Proficient
 Familiar
 :   MacOS, MacOS X, AmigaOS
 
-Tools
------
+## Tools
 
 Proficient
-:   Linux Containers (LXC), Docker, POSIX Shell
+:   Linux Containers (LXC), Docker, POSIX Shell, Terraform, nix
 
 Familiar
-:   KVM, VMWare, VirtualBox
+:   KVM, VMWare, VirtualBox, Ansible
 
-Platforms
----------
+## Platforms
 
 Proficient
 :   AWS, DigitalOcean, Scaleway
@@ -81,11 +66,22 @@ Proficient
 Familiar
 :   OVH, generic VPS providers
 
-Work Experience
-===============
+# Work Experience
 
-May 2018 - July 2018
---------------------
+## Nov 2019 - Present
+
+**Senior SRE**, Malwarebytes Inc, Perugia, Italy
+
+-   Principal SRE for Malwarebytes\' EDR project based in Italy.
+    Maintainer of the Infrastructure as Code for the project using
+    Terraform over AWS. The tech stack is based fully on Terraform, AWS
+    ECS, AWS Lambda, AWS SQS and lately, the new addition, EKS.
+-   Active monitoring setup over CloudWatch and SignalFX with real-time
+    alarms for the older part of the infrastructure.
+-   Prometheus Operator setup for EKS as a future proof solution to
+    distributed monitoring of thousands of containers.
+
+## May 2019 - July 2019
 
 **Backend Developer**, Myjar ltd, Tallinn, Estonia
 
@@ -93,8 +89,7 @@ May 2018 - July 2018
     them to fix legacy bugs and issues talking to different third party
     providers and the corporate Camunda server.
 
-January 2016 - December 2018
-----------------------------
+## January 2016 - December 2018
 
 **Backend Developer, Devop**, Mobilebridge BV, Amsterdam, Netherlands
 
@@ -108,8 +103,7 @@ January 2016 - December 2018
 -   Developed and maintain the real time event processing pipeline based
     on serverless Lambda functions, currently in beta phase.
 
-April 2013 - November 2015
---------------------------
+## April 2013 - November 2015
 
 **Backend node.js developer**, Contentment, London, United Kingdom
 
@@ -127,8 +121,7 @@ April 2013 - November 2015
 -   Tech stack: Linux, HTML5, Express.js, Mongoose, MongoDB, PostgreSQL,
     NGiNX, Linux Containers based on Docker, nmap, wireshark.
 
-March 2007 - Present
---------------------
+## March 2007 - Present
 
 **Core developer**, GtGames, L\'Aquila, Italy
 
@@ -146,8 +139,7 @@ Currently only maintaining remaining services.
     PostgreSQL, MongoDB, CouchDB, Linux Containers based on cgroups,
     nmap, wireshark.
 
-January 2009 - December 2009
-----------------------------
+## January 2009 - December 2009
 
 **Software developer**, Unbit SAS, Torino, Italy
 

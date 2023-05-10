@@ -21,3 +21,9 @@
 ### Mac OS X ###
 ## Mac OS X metadata files:
 *.DS_Store
+
+# Devenv
+.devenv*
+devenv.local.nix
+
+.direnv

@@ -1,36 +1,26 @@
 ---
 header-includes:
-- '\usepackage{cv}'
-title: 'Curriculum Vitae - Lorenzo Giuliani'
+- "`\\usepackage{cv}`{=latex}"
+title: Curriculum Vitae - Lorenzo Giuliani
 ---
 
-\usepackage{cv}
+`\usepackage{cv}`{=latex}
 
-Informationi Personali
-======================
+# Informationi Personali
 
-Nome
-----
+## Nome
 
 Lorenzo Giuliani
 
-Indirizzo
----------
+## Github
 
-L\'Aquila, via Monte Caticchio 10, 67100
+<https://github.com/zenlor>
 
-Telefono
---------
+## E-mail
 
-0039 351 220 7990
+lorenzo@giuliani.me\]\]
 
-E-mail
-------
-
-*lorenzo\@giuliani.me*
-
-Sommario
-========
+# Sommario
 
 > Simplicity is a prerequisite for reliability - Edsger W. Dijkstra
 
@@ -42,11 +32,9 @@ intellegibili che siano microservizi o semplici funzioni. Ama la
 tecnologia *buona* che rende la vita mento difficile sempre tenendo
 conto di mantenibilità.
 
-Capacità Tecniche
-=================
+# Capacità Tecniche
 
-Linguaggi
----------
+## Linguaggi
 
 Esperto
 :   node.js, Clojure, POSIX Shell, lisp
@@ -54,8 +42,7 @@ Esperto
 Conosciuti
 :   Java, Go, C/C++, Python
 
-Sistemi Operativi
------------------
+## Sistemi Operativi
 
 Esperto
 :   GNU/Linux (LFS, ArchLinux and Debian-based distributions),
@@ -64,8 +51,7 @@ Esperto
 Conosciuti
 :   MacOS, MacOS X, AmigaOS
 
-Strumenti
----------
+## Strumenti
 
 Esperto
 :   Linux Containers (LXC), Docker, POSIX Shell
@@ -73,8 +59,7 @@ Esperto
 Conosciuti
 :   KVM, VMWare, VirtualBox
 
-Piattaforme
------------
+## Piattaforme
 
 Esperto
 :   AWS, DigitalOcean, Scaleway
@@ -82,11 +67,22 @@ Esperto
 Conosciuti
 :   OVH, generic VPS providers
 
-Esperienze Lavorative
-=====================
+# Esperienze Lavorative
 
-Maggio 2019 - Luglio 2019
--------------------------
+## Nov 2019 - Present
+
+**Senior SRE**, Malwarebytes Inc, Perugia, Italy
+
+-   Principal SRE for Malwarebytes\' EDR project based in Italy.
+    Maintainer of the Infrastructure as Code for the project using
+    Terraform over AWS. The tech stack is based fully on Terraform, AWS
+    ECS, AWS Lambda, AWS SQS and lately, the new addition, EKS.
+-   Active monitoring setup over CloudWatch and SignalFX with real-time
+    alarms for the older part of the infrastructure.
+-   Prometheus Operator setup for EKS as a future proof solution to
+    distributed monitoring of thousands of containers.
+
+## Maggio 2019 - Luglio 2019
 
 **Backend Developer**, Myjar ltd, Tallinn, Estonia
 
@@ -101,8 +97,7 @@ Maggio 2019 - Luglio 2019
 -   Tech stack :: Linux, Express.js, Mongoose, MongoDB, PostgreSQL,
     NGiNX, Caddy, Rancher, Docker, nmap, wireshark, Serverless.
 
-Gennaio 2016 - Dicembre 2018
-----------------------------
+## Gennaio 2016 - Dicembre 2018
 
 **Backend Developer, Devop**, Mobilebridge BV, Amsterdam, Netherlands
 
@@ -126,8 +121,7 @@ Gennaio 2016 - Dicembre 2018
 -   Tech stack :: Linux, Express.js, Mongoose, MongoDB, PostgreSQL,
     NGiNX, Caddy, Rancher, Docker, nmap, wireshark, Serverless.
 
-Aprile 2013 - Novembre 2015
----------------------------
+## Aprile 2013 - Novembre 2015
 
 **Lead Backend node.js developer**, Contentment, London, United Kingdom
 
@@ -152,8 +146,7 @@ Aprile 2013 - Novembre 2015
 -   Tech stack :: Linux, HTML5, Express.js, Mongoose, MongoDB,
     PostgreSQL, NGiNX, Docker, nmap, wireshark.
 
-Marzo 2007 - Presente
----------------------
+## Marzo 2007 - Presente
 
 **Core developer**, GtGames, L\'Aquila, Italy
 
@@ -175,8 +168,7 @@ Attualmente solo servizi in manutenzione.
     PostgreSQL, MongoDB, CouchDB, Linux Containers based on cgroups,
     nmap, wireshark.
 
-Gennaio 2009 - Decembre 2009
-----------------------------
+## Gennaio 2009 - Decembre 2009
 
 **Software developer**, Unbit SAS, Torino, Italy
 
