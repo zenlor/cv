@@ -31,21 +31,20 @@ problems in small chunks to process, be it microservices or simpler
 functions. Loves good technology which makes life simple while keeps an
 eye on maintainability and sustainability.
 
-# Technical Skills
+# Technical Skills overview
 
 ## Languages
 
 Proficient
-:   node.js, Clojure, POSIX Shell, lisp
+:   Go, node.js, Clojure, Posix Shell
 
 Familiar
-:   Java, Go, C/C++, Python
+:   Python, Java, C/C++, lisp, Zig, Rust
 
 ## Operating Systems
 
 Proficient
-:   GNU/Linux (LFS, ArchLinux and Debian-based distributions),
-    Windows/MS DOS
+:   GNU/Linux: NixOS and standard Linux distributions. Windows/MS DOS
 
 Familiar
 :   MacOS, MacOS X, AmigaOS
@@ -53,10 +52,10 @@ Familiar
 ## Tools
 
 Proficient
-:   Linux Containers (LXC), Docker, POSIX Shell, Terraform, nix
+:   Linux Containers (LXC), Docker, POSIX Shell, Terraform, Ansible, nix
 
 Familiar
-:   KVM, VMWare, VirtualBox, Ansible
+:   KVM, VMWare, VirtualBox
 
 ## Platforms
 
@@ -80,6 +79,9 @@ Familiar
     alarms for the older part of the infrastructure.
 -   Prometheus Operator setup for EKS as a future proof solution to
     distributed monitoring of thousands of containers.
+-   maintainer of the internal monitoring, uptime and testing tools
+    written in Go and python, pushing metrics over prometheus, statsd or
+    cloudwatch.
 
 ## May 2019 - July 2019
 

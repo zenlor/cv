@@ -30,19 +30,18 @@ and, surprisingly, Emacs. Prefers to break down problems in small chunks to
 process, be it microservices or simpler functions. Loves good technology which
 makes life simple while keeps an eye on maintainability and sustainability.
 
-* Technical Skills
+* Technical Skills overview
 ** Languages
-- Proficient :: node.js, Clojure, POSIX Shell, lisp
-- Familiar :: Java, Go, C/C++, Python
+- Proficient :: Go, node.js, Clojure, Posix Shell
+- Familiar :: Python, Java, C/C++, lisp, Zig, Rust
 
 ** Operating Systems
-- Proficient :: GNU/Linux (LFS, ArchLinux and Debian-based distributions),
-     Windows/MS DOS
+- Proficient :: GNU/Linux: NixOS and standard Linux distributions. Windows/MS DOS
 - Familiar :: MacOS, MacOS X, AmigaOS
 
 ** Tools
-- Proficient :: Linux Containers (LXC), Docker, POSIX Shell, Terraform, nix
-- Familiar :: KVM, VMWare, VirtualBox, Ansible
+- Proficient :: Linux Containers (LXC), Docker, POSIX Shell, Terraform, Ansible, nix
+- Familiar :: KVM, VMWare, VirtualBox
 
 ** Platforms
 - Proficient :: AWS, DigitalOcean, Scaleway
@@ -60,6 +59,8 @@ makes life simple while keeps an eye on maintainability and sustainability.
   the older part of the infrastructure.
 - Prometheus Operator setup for EKS as a future proof solution to distributed
   monitoring of thousands of containers.
+- maintainer of the internal monitoring, uptime and testing tools written in Go
+  and python, pushing metrics over prometheus, statsd or cloudwatch.
 
 ** May 2019 - July 2019
 *Backend Developer*, Myjar ltd, Tallinn, Estonia
