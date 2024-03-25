@@ -52,7 +52,8 @@ Familiar
 ## Tools
 
 Proficient
-:   Linux Containers (LXC), Docker, POSIX Shell, Terraform, Ansible, nix
+:   Kubernetes, Linux Containers (LXC)/Docker/OCI, POSIX Shell,
+    Terraform, Ansible, nix
 
 Familiar
 :   KVM, VMWare, VirtualBox
@@ -67,14 +68,15 @@ Familiar
 
 # Work Experience
 
-## Nov 2019 - Present
+## Nov 2019 - March 2024
 
 **Senior SRE**, Malwarebytes Inc, Perugia, Italy
 
 -   Principal SRE for Malwarebytes\' EDR project based in Italy.
     Maintainer of the Infrastructure as Code for the project using
     Terraform over AWS. The tech stack is based fully on Terraform, AWS
-    ECS, AWS Lambda, AWS SQS and lately, the new addition, EKS.
+    ECS, AWS Lambda, AWS SQS and lately, the new addition, EKS
+    (Kubernetes).
 -   Active monitoring setup over CloudWatch and SignalFX with real-time
     alarms for the older part of the infrastructure.
 -   Prometheus Operator setup for EKS as a future proof solution to
